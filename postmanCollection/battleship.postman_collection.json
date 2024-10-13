@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "1d72ecfd-ff3e-4628-ac9a-6072915c3ae0",
+		"name": "battleship",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11038015"
+	},
+	"item": [
+		{
+			"name": "start game",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/games/start",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"games",
+						"start"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shots",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"gameId\": 1,\n  \"player\":\"player\",\n  \"row\": 5,\n  \"col\": 1\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/games/1/shot",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"games",
+						"1",
+						"shot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "gameState",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

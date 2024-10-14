@@ -16,7 +16,7 @@ This project is a simple one-sided Battleship game where a single human player p
 <img src="images/er.png" alt="Description of image" width="auto" height="auto">
 
 ## System flow diagram
-<img src="images/mermaid.png" alt="Description of image" width="800" height="800">
+<img src="images/mermaid.png" alt="Description of image" width="800" height="500">
 
 ## Prerequisites
 To run this application, you need to have the following installed:

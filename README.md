@@ -47,7 +47,7 @@ To run this application, you need to have the following installed:
 ## API Endpoints
 
 ### Start a New Game
-- **Endpoint:** `POST /api/games`
+- **Endpoint:** `POST /api/games/start`
 - **Description:** Starts a new game, randomly placing ships for both the player and the computer.
 - **Response:**
     ```json
